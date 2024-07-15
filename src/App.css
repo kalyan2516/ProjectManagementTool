@@ -1,0 +1,37 @@
+/* App.css */
+
+.App {
+  text-align: center;
+}
+
+/* ... your existing styles ... */
+
+/* Additional styles for the navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.navbar-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end; /* Align buttons to the right */
+  margin-right: -25rem; /* Add some right margin */
+}
+
+.navbar-buttons a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+/* App.css */
+
+.App.initial-page {
+  background-image: url('./components/Assets/Cover_image.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
